@@ -1,9 +1,10 @@
-package fibonacci_March;
+package fibonacci;
 
 /**
  * Print Fibonacci up to a limit using method
  */
 public class Fibonacci3 {
+
 	public static void fib(int limit) {
 		int a = 0, b = 1;
 		while (a <= limit) {

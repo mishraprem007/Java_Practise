@@ -1,4 +1,4 @@
-package fibonacci_March;
+package fibonacci;
 
 /**
  * Find nth Fibonacci number using method
@@ -6,7 +6,6 @@ package fibonacci_March;
 public class Fibonacci2 {
 
 	public static int fib(int num) {
-
 		int a = 0, b = 1;
 		if (num == 0) {
 			return a;
@@ -22,4 +21,5 @@ public class Fibonacci2 {
 	public static void main(String[] args) {
 		System.out.println(fib(8));
 	}
+
 }
